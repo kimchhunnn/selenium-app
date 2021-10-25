@@ -12,5 +12,5 @@
 
 ## Using the project
 1. Open project in IDE (Eclipse)
-- You may one class called Login.java
+- You may see one file called Login.java
 2. Run the project
