@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.safari.SafariDriver;
 import org.testng.Assert;
 
 public class Page_Login_UI {
@@ -12,8 +13,22 @@ public class Page_Login_UI {
 	public WebDriver webDriver;
     
 	@BeforeTest
-	public void beforeTest() {
-		webDriver = new ChromeDriver();
+	@Parameters("browser")
+	public void beforeTest(String browser) throws Exception {
+		switch(browser.toLowerCase()) {
+			case "chrome":
+				System.out.println("ChromeDriver");
+				webDriver = new ChromeDriver();
+				break;
+			case "safari":
+				System.out.println("SafariDriver");
+				webDriver = new SafariDriver();
+			    break;
+			default:
+				System.out.println("Incorrect Browser");
+			  	throw new Exception("Incorrect Browser");
+		};
+		    // code block
 	}
 
 	@AfterTest
