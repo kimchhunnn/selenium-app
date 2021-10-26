@@ -1,4 +1,4 @@
-package seleniumapppackage;
+package com.storybook_app.login;
 
 import org.testng.annotations.*;
 import org.openqa.selenium.By;

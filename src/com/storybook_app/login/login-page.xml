@@ -1,0 +1,12 @@
+<suite name="Login Page"> 
+<test name = "Login Page UI"> 
+<classes> 
+      <class name = "com.storybook.app.login.Page_Login_UI"/> 
+</classes> 
+</test> 
+<test name = "Login Page"> 
+<classes> 
+      <class name = "com.storybook.app.login.Page_Login"/> 
+</classes> 
+</test> 
+</suite>

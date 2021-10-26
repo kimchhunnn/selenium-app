@@ -1,4 +1,4 @@
-package seleniumapppackage;
+package com.storybook_app.login;
 
 import org.testng.annotations.*;
 import org.openqa.selenium.By;
@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
+
+
 
 public class Page_Login {
 	public String baseUrl = "http://localhost:8080/login/";
@@ -40,7 +42,7 @@ public class Page_Login {
 		WebElement btnLogin = webDriver.findElement(By.id("login-btn"));
 		btnLogin.click();
 		
-		WebElement hrdHome = webDriver.findElement(By.cssSelector(".central-login--wrapper h1"));
+		WebElement hrdHome = webDriver.findElement(By.cssSelector(".central-home--wrapper h1"));
 		String hrdHomeText  = hrdHome.getText();
 		
 		Assert.assertEquals(hrdHomeText, expectedHomeHeader);
@@ -80,7 +82,7 @@ public class Page_Login {
 		WebElement btnForgetPwd = webDriver.findElement(By.id("forgot-password-btn"));
 		btnForgetPwd.click();
 		
-		WebElement hrdForgetPwd = webDriver.findElement(By.cssSelector(".central-forget-pwd--wrapper h1"));
+		WebElement hrdForgetPwd = webDriver.findElement(By.cssSelector(".central-forgot-pwd--wrapper h1"));
 		String hrdForgetPwdText  = hrdForgetPwd.getText();
 		
 		Assert.assertEquals(hrdForgetPwdText, expectedForgetPasswordHeader);
