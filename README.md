@@ -3,6 +3,9 @@
 ## Prerequisite
 1. Run a demo Vue 3 app in port 8080 [Application Repo](https://github.com/kimchhunnn/storybook-app)
 
+#### Notice
+If you are not open this project in MacOs you may skip `safaridriver` in project setup and remove `<test>` dom name `Login Page - Safari` in `login-page.xml` file.
+
 ## Project setup
 1. Install Java JDK (based on your OS)
 2. Install IDE (Eclipse)
@@ -29,5 +32,4 @@
 2. Go to `selenium-app` > `src` > `com.storybook_app.login`
 3. You should see `login-page.xml` file
 4. Run `login-page.xml` file
-5. You should see the test result in console.
-
+5. You should see the test result in console. 
