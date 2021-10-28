@@ -1,7 +1,7 @@
 # selenium-app
 
 ## Prerequisite
-1. Run a demo Vue 3 app in port 8080 `https://github.com/kimchhunnn/storybook-app/tree/test/selenium`
+1. Run a demo Vue 3 app in port 8080 [Application Repo](https://github.com/kimchhunnn/storybook-app)
 
 ## Project setup
 1. Install Java
