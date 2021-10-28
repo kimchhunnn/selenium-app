@@ -22,6 +22,7 @@
 8. Place driver
 - Finder: `Go to Folder` > `'/usr/local/bin'`
 - Place `chromedriver` and `safaridriver` files in this folder
+9. Install TestNG [Guide](https://www.guru99.com/install-testng-in-eclipse.html)
 
 ## Using the project
 1. Open project in IDE (Eclipse)
