@@ -30,5 +30,3 @@
 4. Run `login-page.xml` file
 5. You should see the test result in console.
 
-## Project setup
-
