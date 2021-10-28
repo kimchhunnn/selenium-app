@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM '<a href="http://testng.org/testng-1.0.dtd">http://testng.org/testng-1.0.dtd</a>'>
+<suite name="Login Page" thread-count="2" parallel="tests"> 
+	<test name = "Login Page - chrome"> 
+		<parameter name="browser" value="Chrome"/>
+		<classes> 
+		      <class name = "com.storybook_app.login.Page_Login_UI"/> 
+		      <class name = "com.storybook_app.login.Page_Login"/> 
+		</classes> 
+	</test> 
+
+	<test name = "Login Page - Safari"> 
+		<parameter name="browser" value="safari"/>
+		<classes> 
+		      <class name = "com.storybook_app.login.Page_Login_UI"/> 
+		      <class name = "com.storybook_app.login.Page_Login"/> 
+		</classes> 
+	</test>
+
+</suite>
