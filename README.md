@@ -23,6 +23,7 @@ docker compose up -d
 - Click Add External JARs
 - Navigate to downloaded Selenium Webdriver
 - Add all JAR files (include in /lib folder)
+6. Install TestNG [Guide](https://www.guru99.com/install-testng-in-eclipse.html)
 
 ## Using the project
 1. Open project in IDE (Eclipse)
