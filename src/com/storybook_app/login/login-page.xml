@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM '<a href="http://testng.org/testng-1.0.dtd">http://testng.org/testng-1.0.dtd</a>'>
-<suite name="Login Page" thread-count="2" parallel="tests"> 
+<suite name="Login Page"> 
 	<test name = "Login Page UI - chrome"> 
 		<parameter name="browser" value="chrome"/>
 		<classes>
